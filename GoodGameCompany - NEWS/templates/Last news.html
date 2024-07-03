@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>Title</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <img src="{{url_for('static',filename='img/ggc_name.jpg')}}" class="img-fluid" alt="...">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="http://127.0.0.1:5000/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5000/Registration">Registration</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/LastNews">Last News</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/AllNews">All News</a></li>
+            <li><a class="dropdown-item" href="https://learn.logikaschool.com/">Logika School</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://github.com/SemVlad-qq">GitHub</a></li>
+          </ul>
+        </li>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/PC Games">PC Games</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/Mobile Games">Mobile Games</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/All Console">All Console</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/PS Console">PS Console</a></li>
+            <li><a class="dropdown-item" href="http://127.0.0.1:5000/XBOX Console">XBOX Console</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://github.com/SemVlad-qq">GitHub</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+  <div class="row">
+
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+            <img src="{{url_for('static',filename='img/7.png')}}" class="img-fluid" alt="...">
+        <h5 class="card-title">Xbox Servers Are Back Up After Extended Downtime</h5>
+        <p class="card-text">Xbox's online servers went down on July 2, with some people reporting that they are having difficulty connecting to games and services on the platform. The issues were widespread and long-lived, as it took Microsoft hours to clear out the issues and get things working aga...</p>
+        <a href="#" class="btn btn-primary">Read</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+            <img src="{{url_for('static',filename='img/8.png')}}" class="img-fluid" alt="...">
+        <h5 class="card-title">Destiny 2 Claws Of The Wolf God Roll Guide</h5>
+        <p class="card-text">The Iron Banner is back and it brings a reprised version of a deadly pulse rifle you're going to want. Like everything else in Destiny 2 in the aftermath of The Final Shape, the Iron Banner has been altered. The PvP event now sports a two-week duration instead of one and...</p>
+        <a href="#" class="btn btn-primary">Read</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+            <img src="{{url_for('static',filename='img/9.png')}}" class="img-fluid" alt="...">
+        <h5 class="card-title">Is Stardew Valley Cross-Platform?</h5>
+        <p class="card-text">Stardew Valley can be played with up to three friends, but there are some restrictions. Stardew Valley, the massive indie farming simulator, lets you and up to three friends run a farm together, via online play or couch co-op. However, since multiplayer was added post-lau...</p>
+        <a href="#" class="btn btn-primary">Read</a>
+      </div>
+    </div>
+  </div>
+
+
+
+    <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+            <img src="{{url_for('static',filename='img/10.png')}}" class="img-fluid" alt="...">
+        <h5 class="card-title">Dragon Age: The Veilguard Has A "No Death" Setting</h5>
+        <p class="card-text">"It's an option to make sure players of all abilities can show up." BioWare's upcoming fantasy RPG, Dragon Age: The Veilguard, has a lot of changes to the way combat works, and one of them is a "no death" setting that allows players to avoid having their character die mid...</p>
+        <a href="#" class="btn btn-primary">Read</a>
+      </div>
+    </div>
+  </div>
+
+    <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Is Stardew Valley Cross-Platform?</h5>
+        <p class="card-text">Stardew Valley can be played with up to three friends, but there are some restrictions. Stardew Valley, the massive indie farming simulator, lets you and up to three friends run a farm together, via online play or couch co-op. However, since multiplayer was added post-lau...</p>
+        <a href="#" class="btn btn-primary">Read</a>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
